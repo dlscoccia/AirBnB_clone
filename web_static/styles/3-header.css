@@ -1,0 +1,14 @@
+header {
+    height: 70px;
+    width: 100%;
+    background: #FFFFFF;
+    position: absolute;
+    top: 0;
+    border-bottom: solid 1px #CCCCCC;
+}
+
+header .logo {
+    background: url("../images/logo.png") no-repeat;
+    left: 20px;
+    height: 100%;
+}
