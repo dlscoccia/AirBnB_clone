@@ -60,35 +60,17 @@ class BaseModelTest(unittest.TestCase):
         self.assertTrue(actual_date - my_model_1.created_at < time_spread)
         self.assertTrue(actual_date - my_model_2.created_at < time_spread)
 
-    def test_2_updated_at_and_save(self):
+    def test_2_save(self):
         '''If updated_at works when save() is called'''
 
-        my_model_0 = BaseModel()
-        my_model_1 = BaseModel()
-        my_model_2 = BaseModel()
-
-        # 1) Checks if when an instance is updated, created_at != updated_at
+        b1 = BaseModel()
+        crtime = b1.created_at
+        uptime = b1.updated_at
         sleep(0.1)
-        my_model_0.save()
-        my_model_1.save()
-        my_model_2.save()
-
-        self.assertNotEqual(my_model_0.created_at, my_model_0.updated_at)
-        self.assertNotEqual(my_model_1.created_at, my_model_1.updated_at)
-        self.assertNotEqual(my_model_2.created_at, my_model_2.updated_at)
-
-        # 2) Checks if update date is actual
-        sleep(0.1)
-        my_model_0.save()
-        my_model_1.save()
-        my_model_2.save()
-
-        actual_date = datetime.now()
-        time_spread = timedelta(seconds=1)
-
-        self.assertTrue(actual_date - my_model_0.updated_at < time_spread)
-        self.assertTrue(actual_date - my_model_1.updated_at < time_spread)
-        self.assertTrue(actual_date - my_model_2.updated_at < time_spread)
+        b1.save()
+        self.assertTrue(crtime == b1.created_at)
+        self.assertFalse(uptime == crtime)
+        self.assertFalse(uptime == b1.updated_at)
 
     def test_3_str(self):
         '''If str method work as expected'''
