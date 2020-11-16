@@ -10,8 +10,9 @@ ___
 
 Actual examples:
 
-![1]("https://i.ibb.co/wwfcDFM/hbnb.png")
+![1](https://ibb.co/F0FHGLg
+https://ibb.co/hgQS37H)
 
 
-![2]("https://i.ibb.co/10ykFvK/hbnb2.png")
+![2](https://ibb.co/hgQS37H)
 
