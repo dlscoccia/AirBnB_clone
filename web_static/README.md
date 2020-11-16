@@ -4,7 +4,7 @@ ___
 
 This is the second part of the AirBnB clone project. In this folder is allocated the files for the static web, which is part of the Client side (front-end).
 
-
+![static](https://i.ibb.co/6gnFD7H/static.png)
 
 ___
 
