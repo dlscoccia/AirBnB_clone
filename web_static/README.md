@@ -4,15 +4,14 @@ ___
 
 This is the second part of the AirBnB clone project. In this folder is allocated the files for the static web, which is part of the Client side (front-end).
 
-![part2](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/6/87c01524ada6080f40fc.png)
+
 
 ___
 
 Actual examples:
 
-![]
+![1]("https://i.ibb.co/wwfcDFM/hbnb.png")
 
-![]
 
-![]
+![2]("https://i.ibb.co/10ykFvK/hbnb2.png")
 
