@@ -17,3 +17,6 @@ Actual examples:
 
 ![2](https://i.ibb.co/10ykFvK/hbnb2.png)
 
+
+# [Full Preview](https://dlscoccia.github.io/HTML-TEST/test_clone/100-index.html)
+
